@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.react-flow__node {
+  background: #fff;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.app {  
+  display: flex;  
+  height: 100vh;  
+}  
+
+
+
+.sidebar {  
+  width: 200px;  
+  padding: 10px;  
+  background: #f1f1f1;  
+}  
+
+.flow-container {  
+  flex: 1;  
+  background: #fff;  
+  position: relative;  
+
+}
+@media  screen and (max-width: 427px){
+
+
+  .sidebar{
+
+    width:80px;
+  }
+.react-flow__node{
+  padding:2px;
+width:50px;
+}
+  }
